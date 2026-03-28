@@ -40,3 +40,11 @@ Celeritas is a web framework for Go.
 5. Atau kalau kamu perlu manage celeritas sebagai subproject benar:
     - git submodule add https://github.com/ansufw/celeritas.git celeritas
     - git submodule add https://github.com/ansufw/celeritas-boilerplate.git celeritas-boilerplate
+
+
+### Clone project
+
+1. run `git clone --recurse-submodules https://github.com/ansufw/go-laravel.git [dir_name]`
+2. or run
+    - clone repo `git clone https://github.com/ansufw/go-laravel.git [dir_name]`
+    - cd to repo and run `git submodule update --init --recursive --remote`
