@@ -1,0 +1,6 @@
+[submodule "celeritas"]
+	path = celeritas
+	url = https://github.com/ansufw/celeritas.git
+[submodule "celeritas-boilerplate"]
+	path = celeritas-boilerplate
+	url = https://github.com/ansufw/celeritas-boilerplate.git

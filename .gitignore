@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# But don't ignore directories
+!*/
+
+# Whitelist specific folders
+!.vscode/
+
+# go to submodules
+# celeritas/
+# celeritas-boilerplate/
+
+# Whitelist important root files
+!.gitignore
+!go.work
+!README.md
