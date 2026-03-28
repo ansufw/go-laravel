@@ -16,10 +16,12 @@ Celeritas is a web framework for Go.
 
 ### celeritas
 
+- clone this repo and its submodules
 - from root, run `go run celeritas/cmd/cli/*.go` to see available command
-- run 
+- run `go run celeritas/cmd/cli/*.go new new_project` to create the new_project
+- or using make command, `make cel n=new_project`
 
-### coilerplate
+### boilerplate
 
 - open the project and go to the `celeritas-boilerplate`
 - run `cp .env.example .env` and adjust the values
