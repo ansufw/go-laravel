@@ -1,11 +1,9 @@
 # Ignore everything
 *
 
-# But don't ignore directories
-# !*/
-
-# Whitelist specific folders
+# Whitelist specific folders or files
 !.vscode/
+
 
 # go to submodules
 # celeritas/
@@ -14,4 +12,5 @@
 # Whitelist important root files
 !.gitignore
 !go.work
+!docker-compose.yml
 !README.md

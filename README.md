@@ -14,6 +14,10 @@ Celeritas is a web framework for Go.
 
 ## How to Run/Test
 
+### spin up necessary stacks
+
+- run `docker compose up -d`
+
 ### celeritas
 
 - clone this repo and its submodules
