@@ -3,6 +3,8 @@
 
 # Whitelist specific folders or files
 !.vscode/
+!.vscode/**
+
 
 
 # go to submodules

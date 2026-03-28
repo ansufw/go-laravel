@@ -1,0 +1,11 @@
+{
+    "go.buildTags": "integration,unit",
+    "go.toolsEnvVars": {
+        "GO111MODULE": "on"
+    },
+    "gopls": {
+        "build.buildFlags": [
+            "-tags=integration,unit"
+        ]
+    }
+}
