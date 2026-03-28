@@ -13,4 +13,5 @@
 !.gitignore
 !go.work
 !docker-compose.yml
+!Makefile
 !README.md
