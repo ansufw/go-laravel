@@ -10,6 +10,8 @@
 # go to submodules
 # celeritas/
 # celeritas-boilerplate/
+!celeritas-ext/
+!celeritas-ext/**
 
 # Whitelist important root files
 !.gitignore

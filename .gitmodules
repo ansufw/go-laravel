@@ -4,3 +4,6 @@
 [submodule "celeritas-boilerplate"]
 	path = celeritas-boilerplate
 	url = https://github.com/ansufw/celeritas-boilerplate.git
+[submodule "celeritas-ext"]
+	path = celeritas-ext
+	url = https://github.com/ansufw/celeritas-ext.git

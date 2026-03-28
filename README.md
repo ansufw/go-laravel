@@ -54,3 +54,9 @@ Celeritas is a web framework for Go.
 2. or run
     - clone repo `git clone https://github.com/ansufw/go-laravel.git [dir_name]`
     - cd to repo and run `git submodule update --init --recursive --remote`
+
+### Create new framework
+
+1. copy original `cp -rv celeritas celeritas-ext`
+2. ignore the new framework forlder in .gitignore
+3. add submodule
