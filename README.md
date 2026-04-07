@@ -60,3 +60,65 @@ Celeritas is a web framework for Go.
 1. copy original `cp -rv celeritas celeritas-ext`
 2. ignore the new framework forlder in .gitignore
 3. add submodule
+
+## How to Update Celeritas Repo
+
+### Commit changes
+
+```sh
+# 1. First, save your uncommitted changes to stash
+git stash
+
+# 2. Checkout the main branch
+git checkout main
+
+# 3. Pull the latest changes (optional, if you want to update)
+git pull origin main
+
+# 4. Reapply your stashed changes
+git stash pop
+
+# 5. Now commit your changes
+git add .
+git commit -m "Your commit message"
+```
+
+### Create and Push a new tag
+
+```sh
+# 1. Make sure you're on the right commit (main branch with your changes)
+git checkout main
+
+# 2. Create an annotated tag (recommended)
+git tag -a v0.0.6 -m "Release v0.0.6: describe your changes here"
+
+# 3. Push the tag to remote
+git push origin v0.0.6
+
+# Or push all tags at once
+git push origin --tags
+
+# 4. verify
+git tag -l
+git show v0.0.6
+```
+
+### Update parent module
+
+```sh
+# 1. Make sure celeritas submodule is at v0.0.6
+cd /path/to/go-laravel/celeritas
+git checkout v0.0.6
+
+# 2. Go to parent repo
+cd /path/to/go-laravel
+
+# 3. Add the submodule change
+git add celeritas
+
+# 4. Commit the update
+git commit -m "Update celeritas submodule to v0.0.6"
+
+# 5. Verify the change
+git submodule status
+```
